@@ -1,0 +1,99 @@
+.form-signin {
+    max-width: 350px;
+    padding: 10px;
+    height: 80vh;
+    border:1px solid black;
+
+    background-color: #1d2c4f;
+  
+}
+
+.my-login-form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-div{
+
+    height: 100vh;
+    background: rgb(0,169,171);
+    background: radial-gradient(circle, rgba(0,169,171,1) 2%, rgba(0,187,184,1) 46%);
+}
+
+.logoDiv{
+
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -40px !important;
+    background-color: #00f5e1;
+    color: white;
+    
+    
+
+}
+
+.form-group{
+
+    width: 100% !important;
+}
+
+.btn-primary{
+
+    background-color: #00f5e1 !important;
+}
+
+
+.form-control{
+    background-color:#4d5974;
+    color: white;
+    border: 0px;
+    
+
+}
+::placeholder {
+    color: #7a839e !important;
+   
+  }
+
+
+
+  .userLogo{
+
+
+    /* border:1px solid white; */
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .userLogo>img{
+
+    width: 30%;
+  }
+
+
+  .signuptext{
+
+    font-size: 18px;
+    color:#00f5e1 ;
+    text-decoration: none;
+    border: 1px solid #00f5e1 ;
+    padding: 5px;
+
+  }
+
+  .signuptext:hover{
+    background-color:#00f5e1;
+    color: white;
+    cursor: pointer;
+}
